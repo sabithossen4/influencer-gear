@@ -157,17 +157,14 @@ body{
 
    /* Logo section start   */
    .logo{
-    display: grid;
-    grid-template-columns:repeat(7, 1fr);
-    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: center;
     align-items: center;
     margin: 100px 150px;    
-   }
+   }   
    .logo img{
-    width: 80px;
-    height: 30px;
-    
-    
+    padding: 10px 30px;
    }
    /* Logo section end   */
 
@@ -281,7 +278,7 @@ body{
     /* logo       */
     .logo{
       margin: 50px 40px;
-      grid-template-columns:repeat(4, 1fr);      
+            
     }
 
     /* cards     */
