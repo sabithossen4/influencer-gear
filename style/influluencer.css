@@ -188,8 +188,9 @@ body{
       .card{
         background-color: #FFFFFF;
         max-width: 329px;
-        height: 476px;
+        max-height: 476px;
       }     
+     
     .card-name{
       font-size: 28px;
       font-weight: 500;
@@ -300,5 +301,18 @@ body{
       padding: 30px;
     }
     
+   }
+
+
+   @media screen and (min-width:576px) and (max-width:992px){
+
+    /* cards     */
+    .cards-content{      
+      grid-template-columns: repeat(2,1fr);            
+    }
+    .card{
+      margin-bottom: 24px;
+    }
+
    }
    /* Responsive secton end   */
